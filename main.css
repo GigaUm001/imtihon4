@@ -1,0 +1,49 @@
+* {
+    font-family: "Livvic", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .header__texts {
+        display: block;
+    }
+
+    .section__images {
+        background-color: #004047 !important;
+    }
+
+    .section3__text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 645px) {
+    .text_button {
+        display: none !important;
+    }
+
+    .poloska {
+        display: block !important;
+    }
+
+    .section__images {
+        background-color: #012F34 !important;
+    }
+
+    .row__images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button__text {
+        text-align: center !important;
+        display: block !important;
+    }
+
+    .footer__div nav {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px;
+    }
+
+}
